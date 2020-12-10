@@ -2,7 +2,7 @@
 
 The PandOS operating system is based off the T.H.E. system out-lined by Dijkstra back in 1968. Dijkstra’s paper described an OS divided into six layers. Each layer was an ADT or abstract machine to layer i+ 1; successively building up the capabilities of the system for each new layer to build upon. The operating system also contains multiple layers, though PandOS is not as complete as Dijkstra’s. PandOS is split into 3 key phases with room for more additions.  High level overview of the phases: 
 
-# Phase 1 - The Queues Manager
+## Phase 1 - The Queues Manager
 Based on the key operating systems concept that active entities at one layer are just data structures at lower layers, this layer supports the management of queues of structures: pcbs.  
 
 # Phase 2 - The Kernel 
