@@ -1,0 +1,49 @@
+
+------------------------------
+|   PandOS  -----  Phase 1   |
+------------------------------
+
+  Tyler Charuhas ----- Alex DaLaet   
+
+
+
+
+-------------------------
+|   Checking PCB File   |
+-------------------------
+
+Initialized process control blocks   
+allocPcb ok   
+freed 10 entries   
+Inserting...   
+inserted 10 elements   
+outProcQ ok   
+Removing...   
+insertProcQ, removeProcQ and emptyProcQ ok   
+process queues module ok      
+checking process trees...
+Inserting...   
+Inserted 9 children   
+outChild ok   
+Removing...   
+insertChild, removeChild and emptyChild ok   
+process tree module ok      
+
+-------------------------
+|   Checking ASL File   |
+-------------------------
+
+Initialized active semaphore list   
+insertBlocked test #1 started  
+insertBlocked test #2 started  
+removeBlocked test started   
+insertBlocked and removeBlocked ok   
+headBlocked and outBlocked ok   
+ASL module ok   
+So Long and Thanks for All the Fish
+
+---------------------------------------------------
+|   Phase 1 Complete ... You're safe for now...   |
+---------------------------------------------------
+
+System halted 
